@@ -1,0 +1,243 @@
+开始扫描当前系统安全状态...
+主机信息获取
+主机名：localhost.localdomain
+主机IP：10.27.106.247
+系统版本：Linux-3.10.0-693.el7.x86_64-x86_64-with-centos-7.4.1708-Core
+主机时间：2021-04-25 15:25:09
+
+检测系统初始化扫描
+ [1]alias检查                           [ OK  ]
+
+开始文件类安全扫描
+ [1]系统重要文件hash对比                [ OK  ]
+ [2]系统可执行文件安全扫描              [ OK  ]
+ [3]系统临时目录安全扫描                [ OK  ]
+ [4]各用户目录安全扫描                  [ 存在风险  ]
+ [5]可疑隐藏文件扫描                    [ OK  ]
+------------------------------
+文件类安全检测
+{"进程PID": "", "手工排查确认": "[1]rpm -qa /home/ips_test2.0/backup/ips_pcap/backdoor/10020181.pcap [2]strings /home/ips_test2.0/backup/ips_pcap/backdoor/10020181.pcap", "异常时间": "2021-02-02 16:15:36", "异常文件": "/home/ips_test2.0/backup/ips_pcap/backdoor/10020181.pcap", "风险名称": "用户目录文件安全扫描", "处理方案": "rm /home/ips_test2.0/backup/ips_pcap/backdoor/10020181.pcap #删除恶意文件", "异常信息": "境外ip操作类：<html><title>WANRemote 3.0 - Log Out</title><body bgcolor=\"#000000\" text=\"#FFFFFF\" link=\"#00FF00\" vlink=\"#00FF00\" alink=\"#00FF00\" background=\"http://195.182.165.1/~crypt98/x/binary.gif\"><font face=\"Arial\" size=\"6\" color=\"#FFFFFF\"><center><b><i><img src=\"http://195.182.165.1/~crypt98/x/logo.gif\"> <img src=\"http://195.182.165.1/~crypt98/x/title.gif\"><br><br><font size=\"1\">Programmed by <font color=\"#00FF00\">BRAiN/TROUBLE<font color=\"#FFFFFF\"> 1999-2000</i><br><br><font face=\"Arial\" size=\"5\" color=\"#000000\"><font color=\"#7F7F7F\">Log Out<font size=\"3\" color=\"#FFFFFF\"><br></b><br><br>Logout successful. Thank you for using WANRemote 3.0<center><br><br><font size=\"2\" color=\"#FFFFFF\"><a href=\"/\"><img src=\"http://195.182.165.1/~crypt98/x/main.gif\" border=\"0\"></a><a href=\"/\"><img src=\"http://195.182.165.1/~crypt98/x/up.gif\" border=\"0\"></a><a href=\"/x-logout\"><img src=\"http://195.182.165.1/~crypt98/x/logout.gif\" border=\"0\"></a><a href=\"/about\"><img src=\"http://195.182.165.1/~crypt98/x/about.gif\" border=\"0\"></a><br><br><img src=\"http://195.182.165.1/~crypt98/x/c0.jpg\"><img src=\"http://195.182.165.1/~crypt98/x/c0.jpg\"><img src=\"http://195.182.165.1/~crypt98/x/c0.jpg\"><img src=\"http://195.182.165.1/~crypt98/x/c0.jpg\"><img src=\"http://195.182.165.1/~crypt98/x/c0.jpg\"><img src=\"http://195.182.165.1/~crypt98/x/c3.jpg\"><br><br><b><font size=\"1\">Running server version <font color=\"#00FF00\">3.0<font color=\"#FFFFFq", "检测项": "文件类安全检测", "风险级别": "风险", "所属用户": "root"}
+{"进程PID": "", "手工排查确认": "[1]rpm -qa /home/ips_test2.0/backup/ips_pcap/file/12020114.pcap [2]strings /home/ips_test2.0/backup/ips_pcap/file/12020114.pcap", "异常时间": "2021-02-02 16:15:36", "异常文件": "/home/ips_test2.0/backup/ips_pcap/file/12020114.pcap", "风险名称": "用户目录文件安全扫描", "处理方案": "rm /home/ips_test2.0/backup/ips_pcap/file/12020114.pcap #删除恶意文件", "异常信息": "境外ip操作类：Referer: http://192.200.41.126/repro/", "检测项": "文件类安全检测", "风险级别": "风险", "所属用户": "root"}
+{"进程PID": "", "手工排查确认": "[1]rpm -qa /home/ips_test2.0/backup/ips_pcap/system/10010057.pcap [2]strings /home/ips_test2.0/backup/ips_pcap/system/10010057.pcap", "异常时间": "2021-02-02 16:15:36", "异常文件": "/home/ips_test2.0/backup/ips_pcap/system/10010057.pcap", "风险名称": "用户目录文件安全扫描", "处理方案": "rm /home/ips_test2.0/backup/ips_pcap/system/10010057.pcap #删除恶意文件", "异常信息": "境外ip操作类：Referer: http://192.200.41.115/admin.php", "检测项": "文件类安全检测", "风险级别": "风险", "所属用户": "root"}
+{"进程PID": "", "手工排查确认": "[1]rpm -qa /home/ips_test2.0/ips_pcap/backdoor/10020181.pcap [2]strings /home/ips_test2.0/ips_pcap/backdoor/10020181.pcap", "异常时间": "2021-02-02 16:41:33", "异常文件": "/home/ips_test2.0/ips_pcap/backdoor/10020181.pcap", "风险名称": "用户目录文件安全扫描", "处理方案": "rm /home/ips_test2.0/ips_pcap/backdoor/10020181.pcap #删除恶意文件", "异常信息": "境外ip操作类：<html><title>WANRemote 3.0 - Log Out</title><body bgcolor=\"#000000\" text=\"#FFFFFF\" link=\"#00FF00\" vlink=\"#00FF00\" alink=\"#00FF00\" background=\"http://195.182.165.1/~crypt98/x/binary.gif\"><font face=\"Arial\" size=\"6\" color=\"#FFFFFF\"><center><b><i><img src=\"http://195.182.165.1/~crypt98/x/logo.gif\"> <img src=\"http://195.182.165.1/~crypt98/x/title.gif\"><br><br><font size=\"1\">Programmed by <font color=\"#00FF00\">BRAiN/TROUBLE<font color=\"#FFFFFF\"> 1999-2000</i><br><br><font face=\"Arial\" size=\"5\" color=\"#000000\"><font color=\"#7F7F7F\">Log Out<font size=\"3\" color=\"#FFFFFF\"><br></b><br><br>Logout successful. Thank you for using WANRemote 3.0<center><br><br><font size=\"2\" color=\"#FFFFFF\"><a href=\"/\"><img src=\"http://195.182.165.1/~crypt98/x/main.gif\" border=\"0\"></a><a href=\"/\"><img src=\"http://195.182.165.1/~crypt98/x/up.gif\" border=\"0\"></a><a href=\"/x-logout\"><img src=\"http://195.182.165.1/~crypt98/x/logout.gif\" border=\"0\"></a><a href=\"/about\"><img src=\"http://195.182.165.1/~crypt98/x/about.gif\" border=\"0\"></a><br><br><img src=\"http://195.182.165.1/~crypt98/x/c0.jpg\"><img src=\"http://195.182.165.1/~crypt98/x/c0.jpg\"><img src=\"http://195.182.165.1/~crypt98/x/c0.jpg\"><img src=\"http://195.182.165.1/~crypt98/x/c0.jpg\"><img src=\"http://195.182.165.1/~crypt98/x/c0.jpg\"><img src=\"http://195.182.165.1/~crypt98/x/c3.jpg\"><br><br><b><font size=\"1\">Running server version <font color=\"#00FF00\">3.0<font color=\"#FFFFFq", "检测项": "文件类安全检测", "风险级别": "风险", "所属用户": "root"}
+{"进程PID": "", "手工排查确认": "[1]rpm -qa /home/ips_test2.0/ips_pcap/file/12020114.pcap [2]strings /home/ips_test2.0/ips_pcap/file/12020114.pcap", "异常时间": "2021-02-02 16:41:33", "异常文件": "/home/ips_test2.0/ips_pcap/file/12020114.pcap", "风险名称": "用户目录文件安全扫描", "处理方案": "rm /home/ips_test2.0/ips_pcap/file/12020114.pcap #删除恶意文件", "异常信息": "境外ip操作类：Referer: http://192.200.41.126/repro/", "检测项": "文件类安全检测", "风险级别": "风险", "所属用户": "root"}
+{"进程PID": "", "手工排查确认": "[1]rpm -qa /home/ips_test2.0/ips_pcap/system/10010057.pcap [2]strings /home/ips_test2.0/ips_pcap/system/10010057.pcap", "异常时间": "2021-02-02 16:41:33", "异常文件": "/home/ips_test2.0/ips_pcap/system/10010057.pcap", "风险名称": "用户目录文件安全扫描", "处理方案": "rm /home/ips_test2.0/ips_pcap/system/10010057.pcap #删除恶意文件", "异常信息": "境外ip操作类：Referer: http://192.200.41.115/admin.php", "检测项": "文件类安全检测", "风险级别": "风险", "所属用户": "root"}
+{"进程PID": "", "手工排查确认": "[1]rpm -qa /root/test/ips_test2.0/backup/ips_pcap/backdoor/10020181.pcap [2]strings /root/test/ips_test2.0/backup/ips_pcap/backdoor/10020181.pcap", "异常时间": "2021-02-08 16:30:58", "异常文件": "/root/test/ips_test2.0/backup/ips_pcap/backdoor/10020181.pcap", "风险名称": "用户目录文件安全扫描", "处理方案": "rm /root/test/ips_test2.0/backup/ips_pcap/backdoor/10020181.pcap #删除恶意文件", "异常信息": "境外ip操作类：<html><title>WANRemote 3.0 - Log Out</title><body bgcolor=\"#000000\" text=\"#FFFFFF\" link=\"#00FF00\" vlink=\"#00FF00\" alink=\"#00FF00\" background=\"http://195.182.165.1/~crypt98/x/binary.gif\"><font face=\"Arial\" size=\"6\" color=\"#FFFFFF\"><center><b><i><img src=\"http://195.182.165.1/~crypt98/x/logo.gif\"> <img src=\"http://195.182.165.1/~crypt98/x/title.gif\"><br><br><font size=\"1\">Programmed by <font color=\"#00FF00\">BRAiN/TROUBLE<font color=\"#FFFFFF\"> 1999-2000</i><br><br><font face=\"Arial\" size=\"5\" color=\"#000000\"><font color=\"#7F7F7F\">Log Out<font size=\"3\" color=\"#FFFFFF\"><br></b><br><br>Logout successful. Thank you for using WANRemote 3.0<center><br><br><font size=\"2\" color=\"#FFFFFF\"><a href=\"/\"><img src=\"http://195.182.165.1/~crypt98/x/main.gif\" border=\"0\"></a><a href=\"/\"><img src=\"http://195.182.165.1/~crypt98/x/up.gif\" border=\"0\"></a><a href=\"/x-logout\"><img src=\"http://195.182.165.1/~crypt98/x/logout.gif\" border=\"0\"></a><a href=\"/about\"><img src=\"http://195.182.165.1/~crypt98/x/about.gif\" border=\"0\"></a><br><br><img src=\"http://195.182.165.1/~crypt98/x/c0.jpg\"><img src=\"http://195.182.165.1/~crypt98/x/c0.jpg\"><img src=\"http://195.182.165.1/~crypt98/x/c0.jpg\"><img src=\"http://195.182.165.1/~crypt98/x/c0.jpg\"><img src=\"http://195.182.165.1/~crypt98/x/c0.jpg\"><img src=\"http://195.182.165.1/~crypt98/x/c3.jpg\"><br><br><b><font size=\"1\">Running server version <font color=\"#00FF00\">3.0<font color=\"#FFFFFq", "检测项": "文件类安全检测", "风险级别": "风险", "所属用户": "root"}
+{"进程PID": "", "手工排查确认": "[1]rpm -qa /root/test/ips_test2.0/backup/ips_pcap/file/12020114.pcap [2]strings /root/test/ips_test2.0/backup/ips_pcap/file/12020114.pcap", "异常时间": "2021-02-08 16:30:59", "异常文件": "/root/test/ips_test2.0/backup/ips_pcap/file/12020114.pcap", "风险名称": "用户目录文件安全扫描", "处理方案": "rm /root/test/ips_test2.0/backup/ips_pcap/file/12020114.pcap #删除恶意文件", "异常信息": "境外ip操作类：Referer: http://192.200.41.126/repro/", "检测项": "文件类安全检测", "风险级别": "风险", "所属用户": "root"}
+{"进程PID": "", "手工排查确认": "[1]rpm -qa /root/test/ips_test2.0/backup/ips_pcap/system/10010057.pcap [2]strings /root/test/ips_test2.0/backup/ips_pcap/system/10010057.pcap", "异常时间": "2021-02-08 16:31:00", "异常文件": "/root/test/ips_test2.0/backup/ips_pcap/system/10010057.pcap", "风险名称": "用户目录文件安全扫描", "处理方案": "rm /root/test/ips_test2.0/backup/ips_pcap/system/10010057.pcap #删除恶意文件", "异常信息": "境外ip操作类：Referer: http://192.200.41.115/admin.php", "检测项": "文件类安全检测", "风险级别": "风险", "所属用户": "root"}
+{"进程PID": "", "手工排查确认": "[1]rpm -qa /root/test/ips_test2.0/ips_pcap/backdoor/10020181.pcap [2]strings /root/test/ips_test2.0/ips_pcap/backdoor/10020181.pcap", "异常时间": "2021-02-08 16:31:02", "异常文件": "/root/test/ips_test2.0/ips_pcap/backdoor/10020181.pcap", "风险名称": "用户目录文件安全扫描", "处理方案": "rm /root/test/ips_test2.0/ips_pcap/backdoor/10020181.pcap #删除恶意文件", "异常信息": "境外ip操作类：<html><title>WANRemote 3.0 - Log Out</title><body bgcolor=\"#000000\" text=\"#FFFFFF\" link=\"#00FF00\" vlink=\"#00FF00\" alink=\"#00FF00\" background=\"http://195.182.165.1/~crypt98/x/binary.gif\"><font face=\"Arial\" size=\"6\" color=\"#FFFFFF\"><center><b><i><img src=\"http://195.182.165.1/~crypt98/x/logo.gif\"> <img src=\"http://195.182.165.1/~crypt98/x/title.gif\"><br><br><font size=\"1\">Programmed by <font color=\"#00FF00\">BRAiN/TROUBLE<font color=\"#FFFFFF\"> 1999-2000</i><br><br><font face=\"Arial\" size=\"5\" color=\"#000000\"><font color=\"#7F7F7F\">Log Out<font size=\"3\" color=\"#FFFFFF\"><br></b><br><br>Logout successful. Thank you for using WANRemote 3.0<center><br><br><font size=\"2\" color=\"#FFFFFF\"><a href=\"/\"><img src=\"http://195.182.165.1/~crypt98/x/main.gif\" border=\"0\"></a><a href=\"/\"><img src=\"http://195.182.165.1/~crypt98/x/up.gif\" border=\"0\"></a><a href=\"/x-logout\"><img src=\"http://195.182.165.1/~crypt98/x/logout.gif\" border=\"0\"></a><a href=\"/about\"><img src=\"http://195.182.165.1/~crypt98/x/about.gif\" border=\"0\"></a><br><br><img src=\"http://195.182.165.1/~crypt98/x/c0.jpg\"><img src=\"http://195.182.165.1/~crypt98/x/c0.jpg\"><img src=\"http://195.182.165.1/~crypt98/x/c0.jpg\"><img src=\"http://195.182.165.1/~crypt98/x/c0.jpg\"><img src=\"http://195.182.165.1/~crypt98/x/c0.jpg\"><img src=\"http://195.182.165.1/~crypt98/x/c3.jpg\"><br><br><b><font size=\"1\">Running server version <font color=\"#00FF00\">3.0<font color=\"#FFFFFq", "检测项": "文件类安全检测", "风险级别": "风险", "所属用户": "root"}
+{"进程PID": "", "手工排查确认": "[1]rpm -qa /root/docker-vulgame/wordpress/wp-content/cache/c4ca4238a0b923820dcc509a6f75849b/options/37ff8b6dacb58a919c0f13eb067a4310.php [2]strings /root/docker-vulgame/wordpress/wp-content/cache/c4ca4238a0b923820dcc509a6f75849b/options/37ff8b6dacb58a919c0f13eb067a4310.php", "异常时间": "2021-02-04 10:32:11", "异常文件": "/root/docker-vulgame/wordpress/wp-content/cache/c4ca4238a0b923820dcc509a6f75849b/options/37ff8b6dacb58a919c0f13eb067a4310.php", "风险名称": "用户目录文件安全扫描", "处理方案": "rm /root/docker-vulgame/wordpress/wp-content/cache/c4ca4238a0b923820dcc509a6f75849b/options/37ff8b6dacb58a919c0f13eb067a4310.php #删除恶意文件", "异常信息": "境外ip操作类：//s:30:\"http://172.172.3.100/wordpress\";", "检测项": "文件类安全检测", "风险级别": "风险", "所属用户": "root"}
+{"进程PID": "", "手工排查确认": "[1]rpm -qa /root/docker-vulgame/wordpress/wp-content/cache/c4ca4238a0b923820dcc509a6f75849b/options/a41c564f1d9b872506c98d32aebd2bf9.php [2]strings /root/docker-vulgame/wordpress/wp-content/cache/c4ca4238a0b923820dcc509a6f75849b/options/a41c564f1d9b872506c98d32aebd2bf9.php", "异常时间": "2021-02-04 10:32:11", "异常文件": "/root/docker-vulgame/wordpress/wp-content/cache/c4ca4238a0b923820dcc509a6f75849b/options/a41c564f1d9b872506c98d32aebd2bf9.php", "风险名称": "用户目录文件安全扫描", "处理方案": "rm /root/docker-vulgame/wordpress/wp-content/cache/c4ca4238a0b923820dcc509a6f75849b/options/a41c564f1d9b872506c98d32aebd2bf9.php #删除恶意文件", "异常信息": "境外ip操作类：//s:25:\"http://2.2.2.10/wordpress\";", "检测项": "文件类安全检测", "风险级别": "风险", "所属用户": "root"}
+{"进程PID": "", "手工排查确认": "[1]rpm -qa /root/ips_test2.0/backup/ips_pcap/backdoor/10020181.pcap [2]strings /root/ips_test2.0/backup/ips_pcap/backdoor/10020181.pcap", "异常时间": "2021-02-01 11:17:16", "异常文件": "/root/ips_test2.0/backup/ips_pcap/backdoor/10020181.pcap", "风险名称": "用户目录文件安全扫描", "处理方案": "rm /root/ips_test2.0/backup/ips_pcap/backdoor/10020181.pcap #删除恶意文件", "异常信息": "境外ip操作类：<html><title>WANRemote 3.0 - Log Out</title><body bgcolor=\"#000000\" text=\"#FFFFFF\" link=\"#00FF00\" vlink=\"#00FF00\" alink=\"#00FF00\" background=\"http://195.182.165.1/~crypt98/x/binary.gif\"><font face=\"Arial\" size=\"6\" color=\"#FFFFFF\"><center><b><i><img src=\"http://195.182.165.1/~crypt98/x/logo.gif\"> <img src=\"http://195.182.165.1/~crypt98/x/title.gif\"><br><br><font size=\"1\">Programmed by <font color=\"#00FF00\">BRAiN/TROUBLE<font color=\"#FFFFFF\"> 1999-2000</i><br><br><font face=\"Arial\" size=\"5\" color=\"#000000\"><font color=\"#7F7F7F\">Log Out<font size=\"3\" color=\"#FFFFFF\"><br></b><br><br>Logout successful. Thank you for using WANRemote 3.0<center><br><br><font size=\"2\" color=\"#FFFFFF\"><a href=\"/\"><img src=\"http://195.182.165.1/~crypt98/x/main.gif\" border=\"0\"></a><a href=\"/\"><img src=\"http://195.182.165.1/~crypt98/x/up.gif\" border=\"0\"></a><a href=\"/x-logout\"><img src=\"http://195.182.165.1/~crypt98/x/logout.gif\" border=\"0\"></a><a href=\"/about\"><img src=\"http://195.182.165.1/~crypt98/x/about.gif\" border=\"0\"></a><br><br><img src=\"http://195.182.165.1/~crypt98/x/c0.jpg\"><img src=\"http://195.182.165.1/~crypt98/x/c0.jpg\"><img src=\"http://195.182.165.1/~crypt98/x/c0.jpg\"><img src=\"http://195.182.165.1/~crypt98/x/c0.jpg\"><img src=\"http://195.182.165.1/~crypt98/x/c0.jpg\"><img src=\"http://195.182.165.1/~crypt98/x/c3.jpg\"><br><br><b><font size=\"1\">Running server version <font color=\"#00FF00\">3.0<font color=\"#FFFFFq", "检测项": "文件类安全检测", "风险级别": "风险", "所属用户": "root"}
+{"进程PID": "", "手工排查确认": "[1]rpm -qa /root/ips_test2.0/backup/ips_pcap/file/12020114.pcap [2]strings /root/ips_test2.0/backup/ips_pcap/file/12020114.pcap", "异常时间": "2021-02-01 11:17:14", "异常文件": "/root/ips_test2.0/backup/ips_pcap/file/12020114.pcap", "风险名称": "用户目录文件安全扫描", "处理方案": "rm /root/ips_test2.0/backup/ips_pcap/file/12020114.pcap #删除恶意文件", "异常信息": "境外ip操作类：Referer: http://192.200.41.126/repro/", "检测项": "文件类安全检测", "风险级别": "风险", "所属用户": "root"}
+{"进程PID": "", "手工排查确认": "[1]rpm -qa /root/ips_test2.0/backup/ips_pcap/system/10010057.pcap [2]strings /root/ips_test2.0/backup/ips_pcap/system/10010057.pcap", "异常时间": "2021-02-01 11:17:16", "异常文件": "/root/ips_test2.0/backup/ips_pcap/system/10010057.pcap", "风险名称": "用户目录文件安全扫描", "处理方案": "rm /root/ips_test2.0/backup/ips_pcap/system/10010057.pcap #删除恶意文件", "异常信息": "境外ip操作类：Referer: http://192.200.41.115/admin.php", "检测项": "文件类安全检测", "风险级别": "风险", "所属用户": "root"}
+{"进程PID": "", "手工排查确认": "[1]rpm -qa /root/ips_test2.0/ips_pcap/backdoor/10020181.pcap [2]strings /root/ips_test2.0/ips_pcap/backdoor/10020181.pcap", "异常时间": "2021-02-01 11:17:12", "异常文件": "/root/ips_test2.0/ips_pcap/backdoor/10020181.pcap", "风险名称": "用户目录文件安全扫描", "处理方案": "rm /root/ips_test2.0/ips_pcap/backdoor/10020181.pcap #删除恶意文件", "异常信息": "境外ip操作类：<html><title>WANRemote 3.0 - Log Out</title><body bgcolor=\"#000000\" text=\"#FFFFFF\" link=\"#00FF00\" vlink=\"#00FF00\" alink=\"#00FF00\" background=\"http://195.182.165.1/~crypt98/x/binary.gif\"><font face=\"Arial\" size=\"6\" color=\"#FFFFFF\"><center><b><i><img src=\"http://195.182.165.1/~crypt98/x/logo.gif\"> <img src=\"http://195.182.165.1/~crypt98/x/title.gif\"><br><br><font size=\"1\">Programmed by <font color=\"#00FF00\">BRAiN/TROUBLE<font color=\"#FFFFFF\"> 1999-2000</i><br><br><font face=\"Arial\" size=\"5\" color=\"#000000\"><font color=\"#7F7F7F\">Log Out<font size=\"3\" color=\"#FFFFFF\"><br></b><br><br>Logout successful. Thank you for using WANRemote 3.0<center><br><br><font size=\"2\" color=\"#FFFFFF\"><a href=\"/\"><img src=\"http://195.182.165.1/~crypt98/x/main.gif\" border=\"0\"></a><a href=\"/\"><img src=\"http://195.182.165.1/~crypt98/x/up.gif\" border=\"0\"></a><a href=\"/x-logout\"><img src=\"http://195.182.165.1/~crypt98/x/logout.gif\" border=\"0\"></a><a href=\"/about\"><img src=\"http://195.182.165.1/~crypt98/x/about.gif\" border=\"0\"></a><br><br><img src=\"http://195.182.165.1/~crypt98/x/c0.jpg\"><img src=\"http://195.182.165.1/~crypt98/x/c0.jpg\"><img src=\"http://195.182.165.1/~crypt98/x/c0.jpg\"><img src=\"http://195.182.165.1/~crypt98/x/c0.jpg\"><img src=\"http://195.182.165.1/~crypt98/x/c0.jpg\"><img src=\"http://195.182.165.1/~crypt98/x/c3.jpg\"><br><br><b><font size=\"1\">Running server version <font color=\"#00FF00\">3.0<font color=\"#FFFFFq", "检测项": "文件类安全检测", "风险级别": "风险", "所属用户": "root"}
+{"进程PID": "", "手工排查确认": "[1]rpm -qa /root/CyberBattleSim/init.sh [2]strings /root/CyberBattleSim/init.sh", "异常时间": "2021-04-25 15:23:30", "异常文件": "/root/CyberBattleSim/init.sh", "风险名称": "用户目录文件安全扫描", "处理方案": "rm /root/CyberBattleSim/init.sh #删除恶意文件", "异常信息": "反弹shell类： curl -sL https://deb.nodesource.com/setup_12.x | $SUDO bash -", "检测项": "文件类安全检测", "风险级别": "风险", "所属用户": "root"}
+
+开始主机历史操作类安全扫描
+ [1]所有历史操作的可疑记录              [ 存在风险  ]
+------------------------------
+主机历史操作类安全检测
+{"进程PID": "", "手工排查确认": "[1]cat /home/xSRC_1.0.2/.bash_history", "异常时间": "", "异常文件": "/home/xSRC_1.0.2/.bash_history", "风险名称": "history文件安全扫描", "处理方案": "", "异常信息": "反弹shell类：curl -O https://raw.githubusercontent.com/atrandys/trojan/master/trojan_mult.sh && chmod +x trojan_mult.sh && ./trojan_mult.sh", "检测项": "主机历史操作类安全检测", "风险级别": "风险", "所属用户": ""}
+
+开始进程类安全扫描
+ [1]CUP和内存类异常进程排查             [ OK  ]
+ [2]隐藏进程安全扫描                    [ 存在风险  ]
+ [3]反弹shell类进程扫描                 [ OK  ]
+ [4]恶意进程信息安全扫描                [ OK  ]
+ [5]exe程序安全扫描                     [ OK  ]
+------------------------------
+进程类安全检测
+{"进程PID": "4708", "手工排查确认": "[1] cat /proc/$$/mountinfo [2] umount /proc/4708 [3]ps -ef |grep 4708", "异常时间": "2021-04-25 15:30:40", "异常文件": "", "风险名称": "隐藏进程扫描", "处理方案": "umount /proc/4708 & kill 4708 #关闭隐藏进程并结束进程", "异常信息": "进程ID 4708 隐藏了进程信息，未出现在进程列表中", "检测项": "进程类安全检测", "风险级别": "风险", "所属用户": "root"}
+
+开始网络链接类安全扫描
+ [1]当前网络对外连接扫描                [ OK  ]
+ [2]恶意特征类链接扫描                  [ OK  ]
+ [3]网卡混杂模式扫描                    [ OK  ]
+
+开始后门类安全扫描
+ [1]LD_PRELOAD 后门检测                 [ OK  ]
+ [2]LD_AOUT_PRELOAD 后门检测            [ OK  ]
+ [3]LD_ELF_PRELOAD 后门检测             [ OK  ]
+ [4]LD_LIBRARY_PATH 后门检测            [ OK  ]
+ [5]ld.so.preload 后门检测              [ OK  ]
+ [6]PROMPT_COMMAND 后门检测             [ OK  ]
+ [7]cron定时任务后门检测                [ OK  ]
+ [8]未知环境变量 后门检测               [ OK  ]
+ [9]ssh 后门检测                        [ 存在风险  ]
+ [10]SSH wrapper 后门检测               [ OK  ]
+ [11]inetd.conf 后门检测                [ OK  ]
+ [12]xinetd.conf 后门检测               [ OK  ]
+ [13]setuid 后门检测                    [ 警告  ]
+ [14]系统启动项后门检测                 [ OK  ]
+------------------------------
+常规后门检测
+{"进程PID": "970", "手工排查确认": "[1]ls -l /porc/970 [2]ps -ef|grep 970|grep -v grep", "异常时间": "2021-04-15 09:25:46", "异常文件": "/usr/sbin/sshd", "风险名称": "SSH 后门", "处理方案": "kill 970 #关闭异常sshd进程", "异常信息": "非22端口的sshd服务,进程pid: 970", "检测项": "常规后门检测", "风险级别": "风险", "所属用户": "root"}
+{"进程PID": "", "手工排查确认": "[1]ls -l /var/lib/docker/overlay2/b0efa1d71fb90b83e91eff1343151993a1ed0060947aaf07da59a8a20607b88a/diff/usr/bin/expiry", "异常时间": "2018-05-19 19:19:17", "异常文件": "/var/lib/docker/overlay2/b0efa1d71fb90b83e91eff1343151993a1ed0060947aaf07da59a8a20607b88a/diff/usr/bin/expiry", "风险名称": "setuid 后门", "处理方案": "chmod u-s /var/lib/docker/overlay2/b0efa1d71fb90b83e91eff1343151993a1ed0060947aaf07da59a8a20607b88a/diff/usr/bin/expiry #去掉setuid曲线", "异常信息": "文件/var/lib/docker/overlay2/b0efa1d71fb90b83e91eff1343151993a1ed0060947aaf07da59a8a20607b88a/diff/usr/bin/expiry 被设置setuid属性，通常此类被设置权限的文件执行后会给予普通用户root权限", "检测项": "常规后门检测", "风险级别": "风险", "所属用户": "root"}
+
+开始账户类安全扫描
+ [1]root权限账户安全扫描                [ OK  ]
+ [2]特权组账户安全扫描                  [ OK  ]
+ [3]空口令账户安全扫描                  [ OK  ]
+ [4]sudoers权限安全扫描                 [ OK  ]
+ [5]账户免密码证书安全扫描              [ OK  ]
+ [6]账户密码文件扫描                    [ OK  ]
+------------------------------
+账户类安全检测
+{"进程PID": "", "手工排查确认": "[1]cat /etc/passwd", "异常时间": "2021-04-02 11:48:59", "异常文件": "/etc/passwd", "风险名称": "特权组账户安全扫描", "处理方案": "vi /etc/passwd #删除用户root特权组或删除用户", "异常信息": "存在特权组用户elastic", "检测项": "账户类安全检测", "风险级别": "可疑", "所属用户": "root"}
+
+开始日志类安全扫描
+ [1]secure日志安全扫描                  [ OK  ]
+ [2]wtmp日志日志安全扫描                [ OK  ]
+ [3]utmp日志日志安全扫描                [ OK  ]
+ [4]lastlog日志日志安全扫描             [ OK  ]
+
+开始配置类安全扫描
+ [1]DNS设置扫描                         [ 警告  ]
+ [2]防火墙设置扫描                      [ OK  ]
+ [3]hosts设置扫描                       [ OK  ]
+------------------------------
+配置类安全检测
+{"进程PID": "", "手工排查确认": "[1]cat /etc/resolv.conf", "异常时间": "2021-04-15 09:25:32", "异常文件": "/etc/resolv.conf", "风险名称": "DNS安全配置", "处理方案": "vi /etc/resolv.conf #删除或者更改DNS境外配置", "异常信息": "DNS设置为境外IP: 114.114.114.114", "检测项": "配置类安全检测", "风险级别": "可疑", "所属用户": "root"}
+
+开始Rootkit类安全扫描
+ [1]55808 Variant A                     [ OK  ]
+ [2]Adore Rootkit                       [ OK  ]
+ [3]AjaKit Rootkit                      [ OK  ]
+ [4]aPa Kit Rootkit                     [ OK  ]
+ [5]Apache Worm                         [ OK  ]
+ [6]Ambient Rootkit                     [ OK  ]
+ [7]Balaur Rootkit                      [ OK  ]
+ [8]Beastkit Rootkit                    [ OK  ]
+ [9]beX2 Rootkit                        [ OK  ]
+ [10]BOBkit Rootkit                     [ OK  ]
+ [11]OSX Boonana-A Trojan               [ OK  ]
+ [12]cb Rootkit                         [ OK  ]
+ [13]CiNIK Worm                         [ OK  ]
+ [14]CX Rootkit                         [ OK  ]
+ [15]Abuse Kit                          [ OK  ]
+ [16]Devil Rootkit                      [ OK  ]
+ [17]Diamorphine LKM                    [ OK  ]
+ [18]Dica-Kit Rootkit                   [ OK  ]
+ [19]Dreams Rootkit                     [ OK  ]
+ [20]Duarawkz Rootkit                   [ OK  ]
+ [21]Ebury sshd backdoor                [ OK  ]
+ [22]ENYE LKM                           [ OK  ]
+ [23]Flea Rootkit                       [ OK  ]
+ [24]FreeBSD Rootkit                    [ OK  ]
+ [25]Fu Rootkit                         [ OK  ]
+ [26]Fuckit Rootkit                     [ OK  ]
+ [27]GasKit Rootkit                     [ OK  ]
+ [28]Heroin LKM                         [ OK  ]
+ [29]HjC Kit Rootkit                    [ OK  ]
+ [30]ignoKit Rootkit                    [ OK  ]
+ [31]iLLogiC Rootkit                    [ OK  ]
+ [32]OSX Inqtana Variant A              [ OK  ]
+ [33]OSX Inqtana Variant B              [ OK  ]
+ [34]OSX Inqtana Variant C              [ OK  ]
+ [35]IntoXonia-NG Rootkit               [ OK  ]
+ [36]Irix Rootkit                       [ OK  ]
+ [37]Jynx Rootkit                       [ OK  ]
+ [38]Jynx2 Rootkit                      [ OK  ]
+ [39]KBeast Rootkit                     [ OK  ]
+ [40]OSX Keydnap backdoor               [ OK  ]
+ [41]Kitko Rootkit                      [ OK  ]
+ [42]Knark Rootkit                      [ OK  ]
+ [43]OSX Komplex Trojan                 [ OK  ]
+ [44]ld-linuxv rootkit                  [ OK  ]
+ [45]Lion Worm                          [ OK  ]
+ [46]Lockit Rootkit                     [ OK  ]
+ [47]Mokes backdoor                     [ OK  ]
+ [48]MRK RootKit                        [ OK  ]
+ [49]Mood-NT Rootkit                    [ OK  ]
+ [50]Ni0 Rootkit                        [ OK  ]
+ [51]Ohhara Rootkit                     [ OK  ]
+ [52]Optic Kit Rootkit                  [ OK  ]
+ [53]OSXRK                              [ OK  ]
+ [54]Oz Rootkit                         [ OK  ]
+ [55]Phalanx Rootkit                    [ OK  ]
+ [56]Phalanx2 Rootkit                   [ OK  ]
+ [57]Portacelo Rootkit                  [ OK  ]
+ [58]OSX Proton backdoor                [ OK  ]
+ [59]R3dstorm Toolkit                   [ OK  ]
+ [60]RH-Sharpe Rootkit                  [ OK  ]
+ [61]RSHA Rootkit                       [ OK  ]
+ [62]Shutdown Rootkit                   [ OK  ]
+ [63]Scalper Worm                       [ OK  ]
+ [64]SHV4 Rootkit                       [ OK  ]
+ [65]SHV5 Rootkit                       [ OK  ]
+ [66]Sin Rootkit                        [ OK  ]
+ [67]Slapper Worm                       [ OK  ]
+ [68]Sneakin Rootkit                    [ OK  ]
+ [69]Solaris Wanuk backdoor             [ OK  ]
+ [70]Solaris Wanuk Worm                 [ OK  ]
+ [71]Spanish Rootkit                    [ OK  ]
+ [72]Suckit Rootkit                     [ OK  ]
+ [73]NSDAP Rootkit                      [ OK  ]
+ [74]SunOS Rootkit                      [ OK  ]
+ [75]Superkit Rootkit                   [ OK  ]
+ [76]TBD(Telnet Backdoor)               [ OK  ]
+ [77]TeLeKiT Rootkit                    [ OK  ]
+ [78]OSX Togroot Rootkit                [ OK  ]
+ [79]T0rn Rootkit                       [ OK  ]
+ [80]trNkit Rootkit                     [ OK  ]
+ [81]Trojanit Kit Rootkit               [ OK  ]
+ [82]Turtle Rootkit                     [ OK  ]
+ [83]Tuxtendo Rootkit                   [ OK  ]
+ [84]Universal Rootkit                  [ OK  ]
+ [85]VcKit Rootkit                      [ OK  ]
+ [86]Vampire Rootkit                    [ OK  ]
+ [87]Volc Rootkit                       [ OK  ]
+ [88]weaponX                            [ OK  ]
+ [89]Xzibit Rootkit                     [ OK  ]
+ [90]X-Org SunOS Rootkit                [ OK  ]
+ [91]zaRwT.KiT Rootkit                  [ OK  ]
+ [92]ZK Rootkit                         [ OK  ]
+ [93]Miscellaneous login backdoors      [ OK  ]
+ [94]Sniffer log                        [ OK  ]
+ [95]Suspicious dir                     [ OK  ]
+ [96]Apache backdoor                    [ OK  ]
+ [97]检测LKM内核模块                    [ OK  ]
+
+开始Webshell安全扫描
+ [1]Webshell安全扫描                    [ OK  ]
+------------------------------
+根据系统分析的情况，溯源后的攻击行动轨迹为：
+[起点信息] 进程服务2421/nginx: 端口0.0.0.0:59980 对外部公开，可能会被作为入侵起点，属于排查参考方向
+[起点信息] 进程服务970/sshd 端口0.0.0.0:60022 对外部公开，可能会被作为入侵起点，属于排查参考方向
+[起点信息] 进程服务2421/nginx: 端口0.0.0.0:58880 对外部公开，可能会被作为入侵起点，属于排查参考方向
+[起点信息] 进程服务2421/nginx: 端口:::59980 对外部公开，可能会被作为入侵起点，属于排查参考方向
+[起点信息] 进程服务27691/docker-proxy 端口:::80 对外部公开，可能会被作为入侵起点，属于排查参考方向
+[起点信息] 进程服务27678/docker-proxy 端口:::8080 对外部公开，可能会被作为入侵起点，属于排查参考方向
+[起点信息] 进程服务970/sshd 端口:::60022 对外部公开，可能会被作为入侵起点，属于排查参考方向
+[起点信息] 进程服务1185/master 端口::1:25 对外部公开，可能会被作为入侵起点，属于排查参考方向
+[起点信息] 进程服务1781/docker-proxy 端口:::8090 对外部公开，可能会被作为入侵起点，属于排查参考方向
+[起点信息] 进程服务1967/docker-proxy 端口:::8060 对外部公开，可能会被作为入侵起点，属于排查参考方向
+[起点信息] 进程服务2421/nginx: 端口:::58880 对外部公开，可能会被作为入侵起点，属于排查参考方向
+[起点信息] 进程服务1769/docker-proxy 端口:::9090 对外部公开，可能会被作为入侵起点，属于排查参考方向
+[起点信息] 进程服务23984/docker-proxy 端口:::7780 对外部公开，可能会被作为入侵起点，属于排查参考方向
+[起点信息] 进程服务1905/docker-proxy 端口:::4100 对外部公开，可能会被作为入侵起点，属于排查参考方向
+[起点信息] 进程服务1925/docker-proxy 端口:::3306 对外部公开，可能会被作为入侵起点，属于排查参考方向
+[1][风险] 黑客在未知时间，进行了恶意操作，反弹shell类：curl -O https://raw.githubusercontent.com/atrandys/trojan/master/trojan_mult.sh && chmod +x trojan_mult.sh && ./trojan_mult.sh
+[2][风险] 黑客在2018-05-19 19:19:17时间，进行了setuid 后门植入,文件/var/lib/docker/overlay2/b0efa1d71fb90b83e91eff1343151993a1ed0060947aaf07da59a8a20607b88a/diff/usr/bin/expiry 被设置setuid属性，通常此类被设置权限的文件执行后会给予普通用户root权限
+[3][风险] 黑客在2021-02-01 11:17:12时间，植入了恶意文件/root/ips_test2.0/ips_pcap/backdoor/10020181.pcap，境外ip操作类：<html><title>WANRemote 3.0 - Log Out</title><body bgcolor="#000000" text="#FFFFFF" link="#00FF00" vlink="#00FF00" alink="#00FF00" background="http://195.182.165.1/~crypt98/x/binary.gif"><font face="Arial" size="6" color="#FFFFFF"><center><b><i><img src="http://195.182.165.1/~crypt98/x/logo.gif"> <img src="http://195.182.165.1/~crypt98/x/title.gif"><br><br><font size="1">Programmed by <font color="#00FF00">BRAiN/TROUBLE<font color="#FFFFFF"> 1999-2000</i><br><br><font face="Arial" size="5" color="#000000"><font color="#7F7F7F">Log Out<font size="3" color="#FFFFFF"><br></b><br><br>Logout successful. Thank you for using WANRemote 3.0<center><br><br><font size="2" color="#FFFFFF"><a href="/"><img src="http://195.182.165.1/~crypt98/x/main.gif" border="0"></a><a href="/"><img src="http://195.182.165.1/~crypt98/x/up.gif" border="0"></a><a href="/x-logout"><img src="http://195.182.165.1/~crypt98/x/logout.gif" border="0"></a><a href="/about"><img src="http://195.182.165.1/~crypt98/x/about.gif" border="0"></a><br><br><img src="http://195.182.165.1/~crypt98/x/c0.jpg"><img src="http://195.182.165.1/~crypt98/x/c0.jpg"><img src="http://195.182.165.1/~crypt98/x/c0.jpg"><img src="http://195.182.165.1/~crypt98/x/c0.jpg"><img src="http://195.182.165.1/~crypt98/x/c0.jpg"><img src="http://195.182.165.1/~crypt98/x/c3.jpg"><br><br><b><font size="1">Running server version <font color="#00FF00">3.0<font color="#FFFFFq
+[4][风险] 黑客在2021-02-01 11:17:14时间，植入了恶意文件/root/ips_test2.0/backup/ips_pcap/file/12020114.pcap，境外ip操作类：Referer: http://192.200.41.126/repro/
+[5][风险] 黑客在2021-02-01 11:17:16时间，植入了恶意文件/root/ips_test2.0/backup/ips_pcap/backdoor/10020181.pcap，境外ip操作类：<html><title>WANRemote 3.0 - Log Out</title><body bgcolor="#000000" text="#FFFFFF" link="#00FF00" vlink="#00FF00" alink="#00FF00" background="http://195.182.165.1/~crypt98/x/binary.gif"><font face="Arial" size="6" color="#FFFFFF"><center><b><i><img src="http://195.182.165.1/~crypt98/x/logo.gif"> <img src="http://195.182.165.1/~crypt98/x/title.gif"><br><br><font size="1">Programmed by <font color="#00FF00">BRAiN/TROUBLE<font color="#FFFFFF"> 1999-2000</i><br><br><font face="Arial" size="5" color="#000000"><font color="#7F7F7F">Log Out<font size="3" color="#FFFFFF"><br></b><br><br>Logout successful. Thank you for using WANRemote 3.0<center><br><br><font size="2" color="#FFFFFF"><a href="/"><img src="http://195.182.165.1/~crypt98/x/main.gif" border="0"></a><a href="/"><img src="http://195.182.165.1/~crypt98/x/up.gif" border="0"></a><a href="/x-logout"><img src="http://195.182.165.1/~crypt98/x/logout.gif" border="0"></a><a href="/about"><img src="http://195.182.165.1/~crypt98/x/about.gif" border="0"></a><br><br><img src="http://195.182.165.1/~crypt98/x/c0.jpg"><img src="http://195.182.165.1/~crypt98/x/c0.jpg"><img src="http://195.182.165.1/~crypt98/x/c0.jpg"><img src="http://195.182.165.1/~crypt98/x/c0.jpg"><img src="http://195.182.165.1/~crypt98/x/c0.jpg"><img src="http://195.182.165.1/~crypt98/x/c3.jpg"><br><br><b><font size="1">Running server version <font color="#00FF00">3.0<font color="#FFFFFq
+[6][风险] 黑客在2021-02-01 11:17:16时间，植入了恶意文件/root/ips_test2.0/backup/ips_pcap/system/10010057.pcap，境外ip操作类：Referer: http://192.200.41.115/admin.php
+[7][风险] 黑客在2021-02-02 16:15:36时间，植入了恶意文件/home/ips_test2.0/backup/ips_pcap/backdoor/10020181.pcap，境外ip操作类：<html><title>WANRemote 3.0 - Log Out</title><body bgcolor="#000000" text="#FFFFFF" link="#00FF00" vlink="#00FF00" alink="#00FF00" background="http://195.182.165.1/~crypt98/x/binary.gif"><font face="Arial" size="6" color="#FFFFFF"><center><b><i><img src="http://195.182.165.1/~crypt98/x/logo.gif"> <img src="http://195.182.165.1/~crypt98/x/title.gif"><br><br><font size="1">Programmed by <font color="#00FF00">BRAiN/TROUBLE<font color="#FFFFFF"> 1999-2000</i><br><br><font face="Arial" size="5" color="#000000"><font color="#7F7F7F">Log Out<font size="3" color="#FFFFFF"><br></b><br><br>Logout successful. Thank you for using WANRemote 3.0<center><br><br><font size="2" color="#FFFFFF"><a href="/"><img src="http://195.182.165.1/~crypt98/x/main.gif" border="0"></a><a href="/"><img src="http://195.182.165.1/~crypt98/x/up.gif" border="0"></a><a href="/x-logout"><img src="http://195.182.165.1/~crypt98/x/logout.gif" border="0"></a><a href="/about"><img src="http://195.182.165.1/~crypt98/x/about.gif" border="0"></a><br><br><img src="http://195.182.165.1/~crypt98/x/c0.jpg"><img src="http://195.182.165.1/~crypt98/x/c0.jpg"><img src="http://195.182.165.1/~crypt98/x/c0.jpg"><img src="http://195.182.165.1/~crypt98/x/c0.jpg"><img src="http://195.182.165.1/~crypt98/x/c0.jpg"><img src="http://195.182.165.1/~crypt98/x/c3.jpg"><br><br><b><font size="1">Running server version <font color="#00FF00">3.0<font color="#FFFFFq
+[8][风险] 黑客在2021-02-02 16:15:36时间，植入了恶意文件/home/ips_test2.0/backup/ips_pcap/file/12020114.pcap，境外ip操作类：Referer: http://192.200.41.126/repro/
+[9][风险] 黑客在2021-02-02 16:15:36时间，植入了恶意文件/home/ips_test2.0/backup/ips_pcap/system/10010057.pcap，境外ip操作类：Referer: http://192.200.41.115/admin.php
+[10][风险] 黑客在2021-02-02 16:41:33时间，植入了恶意文件/home/ips_test2.0/ips_pcap/backdoor/10020181.pcap，境外ip操作类：<html><title>WANRemote 3.0 - Log Out</title><body bgcolor="#000000" text="#FFFFFF" link="#00FF00" vlink="#00FF00" alink="#00FF00" background="http://195.182.165.1/~crypt98/x/binary.gif"><font face="Arial" size="6" color="#FFFFFF"><center><b><i><img src="http://195.182.165.1/~crypt98/x/logo.gif"> <img src="http://195.182.165.1/~crypt98/x/title.gif"><br><br><font size="1">Programmed by <font color="#00FF00">BRAiN/TROUBLE<font color="#FFFFFF"> 1999-2000</i><br><br><font face="Arial" size="5" color="#000000"><font color="#7F7F7F">Log Out<font size="3" color="#FFFFFF"><br></b><br><br>Logout successful. Thank you for using WANRemote 3.0<center><br><br><font size="2" color="#FFFFFF"><a href="/"><img src="http://195.182.165.1/~crypt98/x/main.gif" border="0"></a><a href="/"><img src="http://195.182.165.1/~crypt98/x/up.gif" border="0"></a><a href="/x-logout"><img src="http://195.182.165.1/~crypt98/x/logout.gif" border="0"></a><a href="/about"><img src="http://195.182.165.1/~crypt98/x/about.gif" border="0"></a><br><br><img src="http://195.182.165.1/~crypt98/x/c0.jpg"><img src="http://195.182.165.1/~crypt98/x/c0.jpg"><img src="http://195.182.165.1/~crypt98/x/c0.jpg"><img src="http://195.182.165.1/~crypt98/x/c0.jpg"><img src="http://195.182.165.1/~crypt98/x/c0.jpg"><img src="http://195.182.165.1/~crypt98/x/c3.jpg"><br><br><b><font size="1">Running server version <font color="#00FF00">3.0<font color="#FFFFFq
+[11][风险] 黑客在2021-02-02 16:41:33时间，植入了恶意文件/home/ips_test2.0/ips_pcap/file/12020114.pcap，境外ip操作类：Referer: http://192.200.41.126/repro/
+[12][风险] 黑客在2021-02-02 16:41:33时间，植入了恶意文件/home/ips_test2.0/ips_pcap/system/10010057.pcap，境外ip操作类：Referer: http://192.200.41.115/admin.php
+[13][风险] 黑客在2021-02-04 10:32:11时间，植入了恶意文件/root/docker-vulgame/wordpress/wp-content/cache/c4ca4238a0b923820dcc509a6f75849b/options/37ff8b6dacb58a919c0f13eb067a4310.php，境外ip操作类：//s:30:"http://172.172.3.100/wordpress";
+[14][风险] 黑客在2021-02-04 10:32:11时间，植入了恶意文件/root/docker-vulgame/wordpress/wp-content/cache/c4ca4238a0b923820dcc509a6f75849b/options/a41c564f1d9b872506c98d32aebd2bf9.php，境外ip操作类：//s:25:"http://2.2.2.10/wordpress";
+[15][风险] 黑客在2021-02-08 16:30:58时间，植入了恶意文件/root/test/ips_test2.0/backup/ips_pcap/backdoor/10020181.pcap，境外ip操作类：<html><title>WANRemote 3.0 - Log Out</title><body bgcolor="#000000" text="#FFFFFF" link="#00FF00" vlink="#00FF00" alink="#00FF00" background="http://195.182.165.1/~crypt98/x/binary.gif"><font face="Arial" size="6" color="#FFFFFF"><center><b><i><img src="http://195.182.165.1/~crypt98/x/logo.gif"> <img src="http://195.182.165.1/~crypt98/x/title.gif"><br><br><font size="1">Programmed by <font color="#00FF00">BRAiN/TROUBLE<font color="#FFFFFF"> 1999-2000</i><br><br><font face="Arial" size="5" color="#000000"><font color="#7F7F7F">Log Out<font size="3" color="#FFFFFF"><br></b><br><br>Logout successful. Thank you for using WANRemote 3.0<center><br><br><font size="2" color="#FFFFFF"><a href="/"><img src="http://195.182.165.1/~crypt98/x/main.gif" border="0"></a><a href="/"><img src="http://195.182.165.1/~crypt98/x/up.gif" border="0"></a><a href="/x-logout"><img src="http://195.182.165.1/~crypt98/x/logout.gif" border="0"></a><a href="/about"><img src="http://195.182.165.1/~crypt98/x/about.gif" border="0"></a><br><br><img src="http://195.182.165.1/~crypt98/x/c0.jpg"><img src="http://195.182.165.1/~crypt98/x/c0.jpg"><img src="http://195.182.165.1/~crypt98/x/c0.jpg"><img src="http://195.182.165.1/~crypt98/x/c0.jpg"><img src="http://195.182.165.1/~crypt98/x/c0.jpg"><img src="http://195.182.165.1/~crypt98/x/c3.jpg"><br><br><b><font size="1">Running server version <font color="#00FF00">3.0<font color="#FFFFFq
+[16][风险] 黑客在2021-02-08 16:30:59时间，植入了恶意文件/root/test/ips_test2.0/backup/ips_pcap/file/12020114.pcap，境外ip操作类：Referer: http://192.200.41.126/repro/
+[17][风险] 黑客在2021-02-08 16:31:00时间，植入了恶意文件/root/test/ips_test2.0/backup/ips_pcap/system/10010057.pcap，境外ip操作类：Referer: http://192.200.41.115/admin.php
+[18][风险] 黑客在2021-02-08 16:31:02时间，植入了恶意文件/root/test/ips_test2.0/ips_pcap/backdoor/10020181.pcap，境外ip操作类：<html><title>WANRemote 3.0 - Log Out</title><body bgcolor="#000000" text="#FFFFFF" link="#00FF00" vlink="#00FF00" alink="#00FF00" background="http://195.182.165.1/~crypt98/x/binary.gif"><font face="Arial" size="6" color="#FFFFFF"><center><b><i><img src="http://195.182.165.1/~crypt98/x/logo.gif"> <img src="http://195.182.165.1/~crypt98/x/title.gif"><br><br><font size="1">Programmed by <font color="#00FF00">BRAiN/TROUBLE<font color="#FFFFFF"> 1999-2000</i><br><br><font face="Arial" size="5" color="#000000"><font color="#7F7F7F">Log Out<font size="3" color="#FFFFFF"><br></b><br><br>Logout successful. Thank you for using WANRemote 3.0<center><br><br><font size="2" color="#FFFFFF"><a href="/"><img src="http://195.182.165.1/~crypt98/x/main.gif" border="0"></a><a href="/"><img src="http://195.182.165.1/~crypt98/x/up.gif" border="0"></a><a href="/x-logout"><img src="http://195.182.165.1/~crypt98/x/logout.gif" border="0"></a><a href="/about"><img src="http://195.182.165.1/~crypt98/x/about.gif" border="0"></a><br><br><img src="http://195.182.165.1/~crypt98/x/c0.jpg"><img src="http://195.182.165.1/~crypt98/x/c0.jpg"><img src="http://195.182.165.1/~crypt98/x/c0.jpg"><img src="http://195.182.165.1/~crypt98/x/c0.jpg"><img src="http://195.182.165.1/~crypt98/x/c0.jpg"><img src="http://195.182.165.1/~crypt98/x/c3.jpg"><br><br><b><font size="1">Running server version <font color="#00FF00">3.0<font color="#FFFFFq
+[19][可疑] 黑客在2021-04-02 11:48:59时间，进行了账户修改设置，存在特权组用户elastic
+[20][可疑] 黑客在2021-04-15 09:25:32时间，进行了DNS安全配置变更，DNS设置为境外IP: 114.114.114.114
+[21][风险] 黑客在2021-04-15 09:25:46时间，进行了SSH 后门植入,非22端口的sshd服务,进程pid: 970
+[22][风险] 黑客在2021-04-25 15:23:30时间，植入了恶意文件/root/CyberBattleSim/init.sh，反弹shell类： curl -sL https://deb.nodesource.com/setup_12.x | $SUDO bash -
+[23][风险] 黑客在2021-04-25 15:30:40时间，启动进程4708，进程ID 4708 隐藏了进程信息，未出现在进程列表中
